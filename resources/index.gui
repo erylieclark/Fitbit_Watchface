@@ -1,0 +1,74 @@
+<svg> 
+  <text id = "date" />
+  <text id = "time" />
+  
+  // Battery
+  <rect x = "260" y = "5" width="35" height = "20" fill = "fb-aqua" />
+  <image x = "260" y ="5" width = "35" height = "20" href = "icons/battery_empty_transparent.png" />
+  <rect id = "batLength" x = "263" y = "8" width = "26" height = "14" />
+  <text id = "battery" class = "stats" x = "255" y = "22" />
+  
+  // Heart Rate
+  <rect x = "5" y = "5" width="22" height = "22" fill = "fb-aqua" />
+  <image x = "5" y ="5" width = "22" height = "22" href = "icons/heart_icon_transparent.png" />
+  <text id = "hr" class = "stats" x = "32" y = "22" />
+  
+  // Active Mins
+  < g id = "activeMins" >
+    <svg>
+      <rect x = "11" y = "198" width= "60" height = "50" fill = "fb-aqua" />
+      <image x = "11" y ="198" width = "60" height = "50" href = "icons/activemins_transparent.png" />
+      <arc id = "activeMinsArcUnder" x = "8" y = "191" width = "63"
+        height = "63" fill = "fb-dark-gray" arc-width = "3"
+        start-angle = "0" sweep-angle = "360" />
+      <arc id = "activeMinsArc" x = "7" y = "190" width = "65"
+        height = "65" fill = "fb-aqua" arc-width = "5"
+        start-angle = "0" sweep-angle = "360" />
+      <text id = "activemins" class = "goals" x="41" y ="288" />
+    </svg>
+  </g>
+  
+  // Distance
+  < g id = "distance" >
+    <svg x = "82" y = "190">
+      <rect x = "2" y = "194" width= "58" height = "58" fill = "fb-aqua" />
+      <image x = "2" y ="194" width = "58" height = "58" href = "icons/miles_transparent.png" />
+      <arc id = "distArcUnder" x = "1" y = "1" width = "63"
+        height = "63" fill = "fb-dark-gray" arc-width = "3"
+        start-angle = "0" sweep-angle = "360" />
+      <arc id = "distArc" x = "0" y = "0" width = "65"
+        height = "65" fill = "fb-aqua" arc-width = "5"
+        start-angle = "0" sweep-angle = "360" />
+      <text id = "distance" class = "goals" x="114" y ="288" />
+    </svg>
+  </g>
+  
+  // Calories
+  <g id = "calories">
+    <svg>
+      <rect x = "157" y = "192" width= "60" height = "60" fill = "fb-aqua" />
+      <image x = "157" y ="192" width = "60" height = "60" href = "icons/calories_transparent.png" />
+      <arc id = "calsArcUnder" x = "156" y = "191" width = "63"
+          height = "63" fill = "fb-dark-gray" arc-width = "3"
+          start-angle = "0" sweep-angle = "360" />
+      <arc id = "calsArc" x = "155" y = "190" width = "65"
+          height = "65" fill = "fb-aqua" arc-width = "5"
+          start-angle = "0" sweep-angle = "360" />
+      <text id = "calories" class = "goals" x="187" y ="288" />
+    </svg>
+  </g>
+  
+  // Steps
+    <g id = "steps">
+      <rect x = "230" y = "192" width= "60" height = "60" fill = "fb-aqua" />
+      <image x = "230" y ="192" width = "60" height = "60" href = "icons/steps_transparent.png" />
+      <arc id = "stepsArcUnder" x = "229" y = "191" width = "63"
+          height = "63" fill = "fb-dark-gray" arc-width = "3"
+          start-angle = "0" sweep-angle = "360" />
+      <arc id = "stepsArc" x = "228" y = "190" width = "65"
+          height = "65" fill = "fb-aqua" arc-width = "5"
+          start-angle = "0" sweep-angle = "360" />
+      <text id = "dataCount" class = "goals" x="260" y ="288" />
+    </g>
+ 
+</svg>

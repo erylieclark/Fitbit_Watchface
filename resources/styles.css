@@ -1,0 +1,46 @@
+.background {
+  viewport-fill: black;
+}
+
+.goals{
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 6;
+  text-anchor: middle;
+  fill: white;
+}
+
+.stats{
+  font-size: 20;
+  font-family: SevilleSharp-Book;
+  text-length: 4;
+  fill: white;
+}
+
+#battery{
+  text-anchor: end;
+}
+
+#hr{
+  text-anchor: start;
+}
+
+#date{
+  font-size: 30;
+  font-family: Seville-Book;
+  text-length: 20;
+  text-anchor:middle;
+  x: 50%;
+  y: 165;
+  fill: white;
+}
+
+#time {
+  font-size: 100;
+  font-family: Colfax-Light;
+  text-length: 6;
+  text-anchor: middle;
+  x: 50%;
+  y: 125;
+  fill: white;
+}
